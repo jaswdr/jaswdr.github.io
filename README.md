@@ -27,4 +27,3 @@ Then visit `http://localhost:8080`.
 
 - Site source / long CV: [`jaswdr/blog`](https://github.com/jaswdr/blog)
 - PDF CV: [`jaswdr/cv`](https://github.com/jaswdr/cv)
-- Improvement notes: [PLAN.md](./PLAN.md)
