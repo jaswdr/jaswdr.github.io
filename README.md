@@ -1,13 +1,30 @@
-# jaswdr.github.io
+# Jonathan Schweder
 
-Personal GitHub Pages user site for [Jonathan Schweder](https://github.com/jaswdr).
+GitHub Pages profile for [@jaswdr](https://github.com/jaswdr).
 
-This repository is currently a thin placeholder. The canonical site is:
+**Live:** [jaswdr.github.io](https://jaswdr.github.io/) · **Full CV:** [jaswdr.dev](https://jaswdr.dev/)
 
-**https://jaswdr.dev/**
+## Local preview
 
-Site source lives in [`jaswdr/blog`](https://github.com/jaswdr/blog) (Hugo CV landing page).
+Open `index.html` with any static server, for example:
 
-## Improvement plan
+```bash
+python3 -m http.server 8080
+```
 
-See [PLAN.md](./PLAN.md) for the recommended path: redirect this `*.github.io` property to `jaswdr.dev`, keep content maintenance in the Hugo site, and optionally add projects/writing there.
+Then visit `http://localhost:8080`.
+
+## Structure
+
+| Path | Purpose |
+|------|---------|
+| `index.html` | Profile page |
+| `css/styles.css` | Layout and visual design |
+| `js/motion.js` | Scroll reveals and year stamp |
+| `assets/images/` | Portrait and favicons |
+
+## Related
+
+- Site source / long CV: [`jaswdr/blog`](https://github.com/jaswdr/blog)
+- PDF CV: [`jaswdr/cv`](https://github.com/jaswdr/cv)
+- Improvement notes: [PLAN.md](./PLAN.md)
